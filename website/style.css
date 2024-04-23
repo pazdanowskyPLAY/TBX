@@ -1,0 +1,41 @@
+/* main css file for website */
+
+body {
+    font-size: 12;
+    background-color: #808080;
+}
+
+#container {
+    width: 1000px;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 4px 12px;
+  }
+
+#navbar
+{
+    position: fixed;
+}
+
+#loginbox {
+}
+
+#files {
+    table-layout: auto;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+#danger
+{
+    border-left: 6px solid #f44336;
+    background-color: #ffdddd;
+}
+
+/* another elements */
+
+td {
+    padding: 10px;
+    background-color: #96D4D4;
+
+}

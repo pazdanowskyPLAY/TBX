@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BYRg Studio: Official Website</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="BYRg Studio is independent game studio full of amateurs and unprofessionalists. Click for more info!"/>
+        <meta name="author" content="_a00"/>
+        <link rel="stylesheet" type="text/css" href="./style.css"/>
+    </head>
+
+    <body>
+        <div id="container">
+			<img src="./images/tbx-logo-cs.png" alt="logo tbx-logo-cs"/>
+            <div id="navbar">
+                <a href="#start">Start</a>
+                <a href="#news">News</a>
+                <a href="#files">Download</a>
+                <a href="#discord">Discord</a>
+            </div>
+
+			<div id="loginbox">
+				<form action="test.php" method="post" enctype="multipart/form-data">
+					<input type="text" name="login" placeholder="LOGIN">
+					<input type="password" name="password" placeholder="PASSWORD">
+				</form>
+			</div>
+
+			<div id="alert">
+				<p><strong>ALERT -</strong> WEBSITE UNDER CONSTRUCTION</p>
+			</div> <br>
+
+			<br>
+            <div id="start">
+				<hr/>
+				<button onclick="typeWriter()"> Was ist das? </button>
+				<p id="demo"></p> 
+				<script>
+					var i = 0;
+					var txt = "BYRg Studio is independent game studio full of amateurs and unprofessionalists. We're coming back for you..."; /* The text */
+					var speed = 50; /* The speed/duration of the effect in milliseconds */
+					function typeWriter() {
+						if (i < txt.length) {
+							document.getElementById("demo").innerHTML += txt.charAt(i);
+							i++;
+							setTimeout(typeWriter, speed);
+						} }
+				</script>
+                
+                BYRg Studio - T.B.X.<br>
+                coming soon, q4-2k24-0101<br>
+
+                <!--<div aria-busy="true" aria-describedby="progress-bar"></div>-->
+                <progress id="progress-bar" aria-label="Content loading..."></progress>
+            </div>
+            <div id="files">
+				<table id="table-files">
+					<tr>
+						<td>FILES</td>
+						<td>Stable build</td>
+						<td>Night build</td>
+						<td>Night build (DEV ONLY)</td>
+					</tr>
+					<tr>
+						<td>Windows</td>
+						<td><a href="./repository/win/TBX-latest.tar">TBX CP-2.5b</a></td>
+						<td><a href="./repository/win/TBX-night-latest.tar">TBX Alpha 0.0.1.0 </a></td>
+						<td><a href="./repository/dev/login.php">TBX DEV hotfix 12</a></td>
+					</tr>
+					<tr>
+						<td>Linux</td>
+						<td>NOT SUPPORTED YET</td>
+						<td>NOT SUPPORTED YET</td>
+						<td>NOT SUPPORTED YET</td>
+					</tr>
+				</table>
+			</div>
+            <div id="news"></div>
+            <div id="discord"></div>
+
+            <!--
+            <a href="mailto:byrgstudio.contact@gmail.com">Send email</a><br>
+            <a href="#news">Go to news</a><br>
+            -->
+            <div id="footer">
+                BYRgStudio 2019-2024 (cc) CopyCenter<br>
+            </div>
+        </div>
+    </body>
+</html>
+<!--
+	
+	<style>
+	#container
+	{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#logo
+	{
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding: 15px;
+	}
+	#nav
+	{
+		float: left;
+		background-color: lightgray;
+		width: 120px;
+		min-height: 620px;
+		padding: 10px;
+	}
+	#content
+	{
+		float: left;
+		padding: 20px;
+		width: 640px;
+	}
+	#ad
+	{
+		float: left;
+		width: 160px;
+		min-height: 620px;
+		padding: 10px;
+		background-color: lightgray;
+	}
+	#footer
+	{
+		clear: both;
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding: 20px;
+	}	
+	</style>
