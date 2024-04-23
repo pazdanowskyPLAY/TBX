@@ -1,0 +1,36 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	CHANGELOG FOR TBX ALPHA "PHOENIX" (PL_pl)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ LEGENDA:
+ (data)- TBX (tryb rozwoju)(wersja)(stan wersji)([unstable][hotfix][snapshot][candidate] numer budowy wersji) - (język)(użytkownik/cy wprowadzający zmiany)-(opis)
+ 
+= xERR - wersja posiadająca błędy, niezdolna do uruchomienia
+= oERR - wersja posiadająca błędy, zdolna do uruchomienia
+= DONE - wersja skończona
+= oDEL - wersja usunięta całkowicie
+= xDEL - wersja usunięta w pewnej części
+= PLAN - wersja planowana
+= #### - wersja niesprawdzana lub/i nieznana
+= UNKN - wersja niewystarczająco sprawdzona
+
+
+
+ 15.02.2024 - TBX Alpha 0.0.1 hotfix 1 - (oERR)
+	# zmiana języka na C# (Mono .NET)
+	# nowa struktura folderów
+	# nowe materiały graficzne gry
+	# rozpoczęto prace nad pierwszym aktem gry
+	# nowy instalator - TBXSetup 0.1.0 (NSIS)
+	# 
+
+
+========================================
+
+== NightUpdate 1-??? "Carbon"
+= 1.0-??? "Imperatus"
+= Beta 1.0.0-??? "Odyssey"
+= Alpha 0.1.1-??? "Phoenix"
+
+ COPYRIGHT © 2020-2024 - BYR STUDIO
+ ZAKAZ PUBLIKACJI BEZ ZGODY STUDIA
