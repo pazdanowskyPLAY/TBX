@@ -1,0 +1,10 @@
+C:\Users\milpaz\Desktop\Github_Projects\project-tbx\TBX_alpha0.0.1\TBX_Launcher\bin\Debug\TBX_Launcher.exe.config
+C:\Users\milpaz\Desktop\Github_Projects\project-tbx\TBX_alpha0.0.1\TBX_Launcher\bin\Debug\TBX_Launcher.exe
+C:\Users\milpaz\Desktop\Github_Projects\project-tbx\TBX_alpha0.0.1\TBX_Launcher\bin\Debug\TBX_Launcher.pdb
+C:\Users\milpaz\Desktop\Github_Projects\project-tbx\TBX_alpha0.0.1\TBX_Launcher\obj\Debug\TBX_Launcher.csproj.AssemblyReference.cache
+C:\Users\milpaz\Desktop\Github_Projects\project-tbx\TBX_alpha0.0.1\TBX_Launcher\obj\Debug\TBX_Launcher.Properties.Resources.resources
+C:\Users\milpaz\Desktop\Github_Projects\project-tbx\TBX_alpha0.0.1\TBX_Launcher\obj\Debug\TBX_Launcher.csproj.GenerateResource.cache
+C:\Users\milpaz\Desktop\Github_Projects\project-tbx\TBX_alpha0.0.1\TBX_Launcher\obj\Debug\TBX_Launcher.csproj.CoreCompileInputs.cache
+C:\Users\milpaz\Desktop\Github_Projects\project-tbx\TBX_alpha0.0.1\TBX_Launcher\obj\Debug\TBX_Launcher.exe
+C:\Users\milpaz\Desktop\Github_Projects\project-tbx\TBX_alpha0.0.1\TBX_Launcher\obj\Debug\TBX_Launcher.pdb
+C:\Users\milpaz\Desktop\Github_Projects\project-tbx\TBX_alpha0.0.1\TBX_Launcher\obj\Debug\TBX_Launcher.Form1.resources
