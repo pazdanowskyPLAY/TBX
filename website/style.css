@@ -1,65 +1,74 @@
 /* main css file for website */
 
 body {
-    font-size: 12;
+    font-size: 16px;
     background-color: #808080;
-    font-family: 'Times New Roman', sans-serif, serif;
+    font-family: 'Arial', sans-serif, serif;
 }
 
 #container {
-    width: 1000px;
+    width: 900px;
     text-align: center;
     margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 5px solid #0000ff;
 }
 
-
-
-/* -------------------navbar--------------------- */
 #navbar {
-    
+    float: right;
+    text-align: center;
+    background-color: lightgray;
+    width: 100px;
+    padding: 5px;
 }
 
 #logo{
     float: left;
 }
 
-#menu {
-    float: right;
-    text-align: center;
-    background-color: lightgray;
-    width: 100px;
-    padding: 10px;
-}
-
 #loginbox {
-    float: right;
+    float: center;
+    text-align: left;
 }
-/* -------------------navbar--------------------- */
 
-
-
-.danger {
+.info-red {
     clear:both;
     background-color: #ff0000;
-    padding: 1px;
-    border-left: 5px solid #ffffff;
-    border-right: 5px solid #ffffff;
+    padding: auto;
+    border: 1px solid #ffffff;
+    border-left: 10px solid #ffffff;
+}
+
+.info-blue {
+
+}
+
+.info-yellow {
+
 }
 
 #start {
 
 }
+
 #files {
+    width: 600px;
+    float: auto;
     table-layout:auto;
     border: 3px solid white;
     border-radius: 5px;
+    margin: auto;
 }
+
 #news {
 
 }
+
 #credits {
 
 }
+
 #footer {
     clear: both;
     background-color: black;
