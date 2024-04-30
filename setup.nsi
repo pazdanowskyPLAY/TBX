@@ -1,15 +1,15 @@
 Unicode false
 ManifestSupportedOS all
 
-!define AppVersion "Alpha 0.0.1"
-Name "TBXSetup for ${AppVersion}"
+LoadLanguageFile "${NSISDIR}\Contrib\Language files\Polish.nlf"
+!define AppVersion "Alpha 0.0.1.0"
+Name "TBX ${AppVersion} Setup"
 OutFile "TBX ${AppVersion}.exe"
-Icon "tbx-setup.ico"
+Icon "gallery/tbx-setup.ico"
 
 InstallDir "$DESKTOP\BYRg Studio\TBX\${AppVersion}"
 InstallDirRegKey HKLM "Software\BYRg Studio\TBX ${AppVersion}" "Install_Directory"
 
-LoadLanguageFile "${NSISDIR}\Contrib\Language files\Polish.nlf"
 RequestExecutionLevel admin
 SetCompress auto
 Setcompressor /FINAL bzip2
@@ -24,23 +24,23 @@ AutoCloseWindow false
 ###
 
 LicenseData "README"
-LicenseText "LICENCJA" "Zgadzam siÄ™"
+LicenseText "LICENSE" "Zgadzam siê"
 LicenseForceSelection checkbox "Akceptuje przedstawione warunki"
 SetDateSave on
 
-BrandingText "Instalator stworzony dziÄ™ki NSIS!"
-InstallButtonText "Zainstaluj..."
-UninstallButtonText "Odinstaluj..."
+BrandingText "Instalator stworzony dziêki NSIS!"
+InstallButtonText "Zainstaluj"
+UninstallButtonText "Odinstaluj"
 
 ###
 
 VIAddVersionKey "CompanyName" "BYRg Studio"
-VIAddVersionKey "FileDescription" "TBX Installer"
+VIAddVersionKey "FileDescription" "TBX ${AppVersion} Setup"
 VIAddVersionKey "ProductName" "TBX"
 VIAddVersionKey "Comments" "hotfix 3/22-04-2024"
 VIAddVersionKey "LegalCopyright" "(CC) CopyCenter 2020-2024"
-VIAddVersionKey "FileVersion" "0.2.1.1"
-VIProductVersion "0.0.1.3"
+VIAddVersionKey "FileVersion" "0.2.0.0"
+VIProductVersion "0.0.1.0"
 
 ###
 
@@ -52,17 +52,11 @@ UninstPage instfiles
 ###
 
 Section "INSTALLER"
-	File /a /r "README"
-	File /a /r "CHANGELOG"
-	File /a /r chapters
-	File /a /r assets
+	File /a /r "TBX_Alpha_0.0.1.0"
 	SetOutPath $INSTDIR
 
-	WriteRegStr HKLM '"Software\Microsoft\Windows\CurrentVersion\Uninstall\TBX\${AppVersion}"' "DisplayName" '"TBX ${AppVersion} uninstaller"'
+	WriteRegStr HKLM '"Software\Microsoft\Windows\CurrentVersion\Uninstall\TBX\${AppVersion}"' "DisplayName" '"TBX ${AppVersion} Uninstaller"'
 	WriteRegStr HKLM '"Software\Microsoft\Windows\CurrentVersion\Uninstall\TBX\${AppVersion}"' "UninstallString" '"uninst(${AppVersion}).exe"'
-	WriteRegStr HKLM '"Software\Microsoft\Windows\CurrentVersion\Uninstall\TBX\${AppVersion}"' "ID_A" "0000-0000-0000-0000-000001"
-	WriteRegStr HKLM '"Software\Microsoft\Windows\CurrentVersion\Uninstall\TBX\${AppVersion}"' "ID_B" "0000-0000-0000-0000-000002"
-	WriteRegStr HKLM '"Software\Microsoft\Windows\CurrentVersion\Uninstall\TBX\${AppVersion}"' "ID_DEV" "9F9F-9F9F-9F9F-9F9F-181257"
 	WriteUninstaller '"uninst(${AppVersion}).exe"'
 SectionEnd
 
@@ -78,10 +72,10 @@ Function .onInit
 	System::Call 'kernel32::CreateMutex(p 0, i 0, t "myMutex") p .r1 ?e'
 	Pop $R0
 	StrCmp $R0 0 +3
-   	MessageBox MB_OK|MB_ICONEXCLAMATION "Instalator jest juÅ¼ uruchomiony."
+   	MessageBox MB_OK|MB_ICONEXCLAMATION "Instalator jest ju¿ uruchomiony."
    	Abort
 
-	MessageBox MB_YESNO|MB_ICONINFORMATION|MB_DEFBUTTON2 "UWAGA!$\nWersja TBX, ktÃ³rÄ… chcesz zainstalowaÄ‡, jest jeszcze w stanie rozwoju Alpha. Oznacza to, Å¼e program moÅ¼e posiadaÄ‡ pewne bÅ‚Ä™dy nawet zagraÅ¼ajÄ…ce funkcjonalnoÅ›ci komputera.$\nCzy chcesz kontynuowaÄ‡?"\
+	MessageBox MB_YESNO|MB_ICONINFORMATION|MB_DEFBUTTON2 "UWAGA!$\nWersja TBX, któr¹ chcesz zainstalowaæ, jest jeszcze w stanie rozwoju Alpha. Oznacza to, ¿e program mo¿e posiadaæ pewne b³êdy nawet zagra¿aj¹ce funkcjonalnoœci komputera.$\nCzy chcesz kontynuowaæ?"\
 		IDYES installyes IDNO installno
 	installno:
 		Abort
@@ -93,10 +87,10 @@ Function un.onInit
 	System::Call 'kernel32::CreateMutex(p 0, i 0, t "myMutex") p .r1 ?e'
 	Pop $R1
 	StrCmp $R1 0 +3
-   	MessageBox MB_OK|MB_ICONEXCLAMATION "Deinstalator jest juÅ¼ uruchomiony."
+   	MessageBox MB_OK|MB_ICONEXCLAMATION "Deinstalator jest ju¿ uruchomiony."
    	Abort
 
-	MessageBox MB_YESNO|MB_ICONINFORMATION|MB_DEFBUTTON1 "Czy chcesz odinstalowaÄ‡ TBX ${AppVersion}?"\
+	MessageBox MB_YESNO|MB_ICONINFORMATION|MB_DEFBUTTON1 "Czy chcesz odinstalowaæ TBX ${AppVersion}?"\
 		IDYES uninstallyes IDNO uninstallno
 	uninstallno:
 		Abort
@@ -106,13 +100,13 @@ FunctionEnd
 ###
 
 Function .onInstFailed
-	MessageBox MB_OK|MB_ICONSTOP "WystÄ…piÅ‚ bÅ‚Ä…d"
+	MessageBox MB_OK|MB_ICONSTOP "Wyst¹pi³ nieoczekiwany b³¹d podczas instalacji."
 FunctionEnd
 
 Function .onInstSuccess
-    MessageBox MB_YESNO "DziÄ™kujemy serdecznie za skorzystanie z wersji ${AppVersion}. Czy chcesz zobaczyÄ‡ plik README?" IDNO NoReadme
-    	Exec 'notepad.exe $INSTDIR/README'
-	NoReadme:
+    MessageBox MB_YESNO "Dziêkujemy serdecznie za skorzystanie z wersji ${AppVersion}. Czy chcesz zobaczyæ plik LICENSE?" IDNO NoLicense
+    	Exec 'notepad.exe $INSTDIR/LICENSE'
+	NoLicense:
 FunctionEnd
 
 ; ak vop sfermed pro spes maned, if om pobl to pobl, ne ei mnoka pfo an am lank
