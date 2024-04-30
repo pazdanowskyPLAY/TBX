@@ -1,0 +1,12 @@
+{
+  "configurations": [
+  {
+      "name": "Mono",
+      "type": "mono",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/okienko.exe",
+      "console": "internalConsole"
+  }
+  ]
+}

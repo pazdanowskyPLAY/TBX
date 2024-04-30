@@ -16,7 +16,5 @@ namespace TBX_Launcher
         {
             InitializeComponent();
         }
-
-
     }
 }
