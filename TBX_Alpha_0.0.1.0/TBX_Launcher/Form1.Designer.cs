@@ -1,6 +1,6 @@
 ﻿namespace TBX_Launcher
 {
-    partial class TBXLauncher
+    partial class MainWindow
     {
         /// <summary>
         /// Wymagana zmienna projektanta.
@@ -28,93 +28,104 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TBXLauncher));
-            this.loginbox = new System.Windows.Forms.TextBox();
-            this.passwordbox = new System.Windows.Forms.TextBox();
-            this.ifdev = new System.Windows.Forms.CheckBox();
-            this.idbox = new System.Windows.Forms.TextBox();
-            this.loginbutton = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
+            this.login_TextBox = new System.Windows.Forms.TextBox();
+            this.devID_TextBox = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.password_TextBox = new System.Windows.Forms.TextBox();
+            this.signIn_Button = new System.Windows.Forms.Button();
+            this.logo_PictureBox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.logo_PictureBox)).BeginInit();
             this.SuspendLayout();
             // 
-            // loginbox
+            // login_TextBox
             // 
-            this.loginbox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.loginbox.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.loginbox.Location = new System.Drawing.Point(12, 13);
-            this.loginbox.MaxLength = 64;
-            this.loginbox.Name = "loginbox";
-            this.loginbox.Size = new System.Drawing.Size(200, 20);
-            this.loginbox.TabIndex = 0;
+            this.login_TextBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.login_TextBox.Location = new System.Drawing.Point(14, 15);
+            this.login_TextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.login_TextBox.MaxLength = 128;
+            this.login_TextBox.Name = "login_TextBox";
+            this.login_TextBox.Size = new System.Drawing.Size(200, 22);
+            this.login_TextBox.TabIndex = 0;
             // 
-            // passwordbox
+            // devID_TextBox
             // 
-            this.passwordbox.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.passwordbox.Location = new System.Drawing.Point(12, 41);
-            this.passwordbox.MaxLength = 64;
-            this.passwordbox.Name = "passwordbox";
-            this.passwordbox.Size = new System.Drawing.Size(200, 20);
-            this.passwordbox.TabIndex = 1;
-            this.passwordbox.UseSystemPasswordChar = true;
+            this.devID_TextBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.devID_TextBox.Location = new System.Drawing.Point(14, 107);
+            this.devID_TextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.devID_TextBox.MaxLength = 256;
+            this.devID_TextBox.Name = "devID_TextBox";
+            this.devID_TextBox.Size = new System.Drawing.Size(200, 22);
+            this.devID_TextBox.TabIndex = 3;
+            this.devID_TextBox.UseSystemPasswordChar = true;
             // 
-            // ifdev
+            // checkBox1
             // 
-            this.ifdev.AutoSize = true;
-            this.ifdev.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ifdev.Location = new System.Drawing.Point(12, 67);
-            this.ifdev.Name = "ifdev";
-            this.ifdev.Size = new System.Drawing.Size(178, 20);
-            this.ifdev.TabIndex = 2;
-            this.ifdev.Text = "I\'m a certificated developer";
-            this.ifdev.UseVisualStyleBackColor = true;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.checkBox1.Location = new System.Drawing.Point(14, 79);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(91, 20);
+            this.checkBox1.TabIndex = 2;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // idbox
+            // password_TextBox
             // 
-            this.idbox.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.idbox.Location = new System.Drawing.Point(12, 93);
-            this.idbox.MaxLength = 256;
-            this.idbox.Name = "idbox";
-            this.idbox.Size = new System.Drawing.Size(200, 20);
-            this.idbox.TabIndex = 3;
-            this.idbox.UseSystemPasswordChar = true;
+            this.password_TextBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.password_TextBox.Location = new System.Drawing.Point(14, 47);
+            this.password_TextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.password_TextBox.MaxLength = 128;
+            this.password_TextBox.Name = "password_TextBox";
+            this.password_TextBox.Size = new System.Drawing.Size(200, 22);
+            this.password_TextBox.TabIndex = 1;
+            this.password_TextBox.UseSystemPasswordChar = true;
             // 
-            // loginbutton
+            // signIn_Button
             // 
-            this.loginbutton.Location = new System.Drawing.Point(272, 101);
-            this.loginbutton.Name = "loginbutton";
-            this.loginbutton.Size = new System.Drawing.Size(100, 23);
-            this.loginbutton.TabIndex = 4;
-            this.loginbutton.Text = "Log in / Sign in";
-            this.loginbutton.UseVisualStyleBackColor = true;
+            this.signIn_Button.Cursor = System.Windows.Forms.Cursors.No;
+            this.signIn_Button.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.signIn_Button.Location = new System.Drawing.Point(261, 124);
+            this.signIn_Button.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.signIn_Button.Name = "signIn_Button";
+            this.signIn_Button.Size = new System.Drawing.Size(110, 25);
+            this.signIn_Button.TabIndex = 4;
+            this.signIn_Button.Text = "Sign in / Log in";
+            this.signIn_Button.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // logo_PictureBox
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(272, 11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 75);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.logo_PictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.logo_PictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.logo_PictureBox.Image = global::TBX_Launcher.Properties.Resources.tbx_dev_launcher;
+            this.logo_PictureBox.Location = new System.Drawing.Point(261, 15);
+            this.logo_PictureBox.Name = "logo_PictureBox";
+            this.logo_PictureBox.Size = new System.Drawing.Size(110, 85);
+            this.logo_PictureBox.TabIndex = 5;
+            this.logo_PictureBox.TabStop = false;
             // 
-            // TBXLauncher
+            // MainWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 136);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.loginbutton);
-            this.Controls.Add(this.idbox);
-            this.Controls.Add(this.ifdev);
-            this.Controls.Add(this.passwordbox);
-            this.Controls.Add(this.loginbox);
-            this.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.AcceptButton = this.signIn_Button;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(384, 161);
+            this.Controls.Add(this.logo_PictureBox);
+            this.Controls.Add(this.signIn_Button);
+            this.Controls.Add(this.password_TextBox);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.devID_TextBox);
+            this.Controls.Add(this.login_TextBox);
+            this.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "TBXLauncher";
-            this.ShowIcon = false;
+            this.Name = "MainWindow";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TBX_Launcher";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logo_PictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -122,12 +133,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox loginbox;
-        private System.Windows.Forms.TextBox passwordbox;
-        private System.Windows.Forms.CheckBox ifdev;
-        private System.Windows.Forms.TextBox idbox;
-        private System.Windows.Forms.Button loginbutton;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox login_TextBox;
+        private System.Windows.Forms.TextBox devID_TextBox;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox password_TextBox;
+        private System.Windows.Forms.Button signIn_Button;
+        private System.Windows.Forms.PictureBox logo_PictureBox;
     }
 }
 

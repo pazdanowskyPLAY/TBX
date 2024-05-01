@@ -1,10 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\milpaz\\source\\repos\\TBX_Launcher\\",
+  "WorkspaceRootPath": "C:\\Users\\milpaz\\Desktop\\Github_Projects\\project-tbx\\TBX_Alpha_0.0.1.0\\TBX_Launcher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8D97DD0-2E91-4DBF-8966-8DF534CC8D8A}|TBX_Launcher.csproj|c:\\users\\milpaz\\source\\repos\\tbx_launcher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D8D97DD0-2E91-4DBF-8966-8DF534CC8D8A}|TBX_Launcher.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DDAB0F32-2074-4439-AE80-B919C50A41C0}|TBX_Launcher.csproj|c:\\users\\milpaz\\desktop\\github_projects\\project-tbx\\tbx_alpha_0.0.1.0\\tbx_launcher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DDAB0F32-2074-4439-AE80-B919C50A41C0}|TBX_Launcher.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|TBX_Launcher||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDAB0F32-2074-4439-AE80-B919C50A41C0}|TBX_Launcher.csproj|C:\\Users\\milpaz\\Desktop\\Github_Projects\\project-tbx\\TBX_Alpha_0.0.1.0\\TBX_Launcher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDAB0F32-2074-4439-AE80-B919C50A41C0}|TBX_Launcher.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDAB0F32-2074-4439-AE80-B919C50A41C0}|TBX_Launcher.csproj|C:\\Users\\milpaz\\Desktop\\Github_Projects\\project-tbx\\TBX_Alpha_0.0.1.0\\TBX_Launcher\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDAB0F32-2074-4439-AE80-B919C50A41C0}|TBX_Launcher.csproj|solutionrelative:Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDAB0F32-2074-4439-AE80-B919C50A41C0}|TBX_Launcher.csproj|c:\\users\\milpaz\\desktop\\github_projects\\project-tbx\\tbx_alpha_0.0.1.0\\tbx_launcher\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +28,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TBX_Launcher",
+              "DocumentMoniker": "C:\\Users\\milpaz\\Desktop\\Github_Projects\\project-tbx\\TBX_Alpha_0.0.1.0\\TBX_Launcher\\TBX_Launcher.csproj",
+              "RelativeDocumentMoniker": "TBX_Launcher.csproj",
+              "ToolTip": "C:\\Users\\milpaz\\Desktop\\Github_Projects\\project-tbx\\TBX_Alpha_0.0.1.0\\TBX_Launcher\\TBX_Launcher.csproj",
+              "RelativeToolTip": "TBX_Launcher.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-01T12:35:07.544Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Projekt]",
-              "DocumentMoniker": "C:\\Users\\milpaz\\source\\repos\\TBX_Launcher\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\milpaz\\Desktop\\Github_Projects\\project-tbx\\TBX_Alpha_0.0.1.0\\TBX_Launcher\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\milpaz\\source\\repos\\TBX_Launcher\\Form1.cs [Projekt]",
+              "ToolTip": "C:\\Users\\milpaz\\Desktop\\Github_Projects\\project-tbx\\TBX_Alpha_0.0.1.0\\TBX_Launcher\\Form1.cs [Projekt]",
               "RelativeToolTip": "Form1.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T18:45:54.414Z",
+              "WhenOpened": "2024-05-01T12:25:11.789Z",
               "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\milpaz\\Desktop\\Github_Projects\\project-tbx\\TBX_Alpha_0.0.1.0\\TBX_Launcher\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\milpaz\\Desktop\\Github_Projects\\project-tbx\\TBX_Alpha_0.0.1.0\\TBX_Launcher\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T12:18:34.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\milpaz\\Desktop\\Github_Projects\\project-tbx\\TBX_Alpha_0.0.1.0\\TBX_Launcher\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\milpaz\\Desktop\\Github_Projects\\project-tbx\\TBX_Alpha_0.0.1.0\\TBX_Launcher\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T12:18:37.296Z",
+              "EditorCaption": ""
             }
           ]
         }

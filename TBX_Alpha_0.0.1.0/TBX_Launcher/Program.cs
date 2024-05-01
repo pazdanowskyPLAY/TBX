@@ -16,7 +16,7 @@ namespace TBX_Launcher
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TBXLauncher());
+            Application.Run(new MainWindow());
         }
     }
 }

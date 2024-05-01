@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TBX_Launcher", "TBX_Launcher.csproj", "{D8D97DD0-2E91-4DBF-8966-8DF534CC8D8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TBX_Launcher", "TBX_Launcher.csproj", "{DDAB0F32-2074-4439-AE80-B919C50A41C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D8D97DD0-2E91-4DBF-8966-8DF534CC8D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D8D97DD0-2E91-4DBF-8966-8DF534CC8D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D8D97DD0-2E91-4DBF-8966-8DF534CC8D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D8D97DD0-2E91-4DBF-8966-8DF534CC8D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDAB0F32-2074-4439-AE80-B919C50A41C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDAB0F32-2074-4439-AE80-B919C50A41C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDAB0F32-2074-4439-AE80-B919C50A41C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDAB0F32-2074-4439-AE80-B919C50A41C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1000E3D6-F10A-4F6A-813D-6B7CC8D43F25}
+		SolutionGuid = {0D877F16-A182-4A91-90AA-A3922E14A26F}
 	EndGlobalSection
 EndGlobal

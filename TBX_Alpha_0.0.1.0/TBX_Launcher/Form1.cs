@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TBX_Launcher
 {
-    public partial class TBXLauncher : Form
+    public partial class MainWindow : Form
     {
-        public TBXLauncher()
+        public MainWindow()
         {
             InitializeComponent();
         }
