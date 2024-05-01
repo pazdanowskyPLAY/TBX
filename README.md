@@ -7,7 +7,7 @@ PL: Gra tekstowa z gatunku horror/science-fiction/przygodowe
 who knows
 
 ## Current version/Obecna wersja
-T.B.X. Alpha 0.0.1
+T.B.X. Alpha 0.0.1.0
 
 > [!WARNING]
 > please mind, project and readme is still in process of developing
