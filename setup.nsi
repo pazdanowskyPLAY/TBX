@@ -1,15 +1,17 @@
-; przed kompilacj¹ nale¿y przenieœæ plik LICENSE do folderu gry!
+/*
+	WA¯NE! Przed kompilacj¹ nale¿y skopiowaæ plik LICENSE do folderu gry!
+*/
 Unicode false
 ManifestSupportedOS all
 
 LoadLanguageFile "${NSISDIR}\Contrib\Language files\Polish.nlf"
-!define AppVersion "Alpha 0.0.1.0"
+!define AppVersion "Alpha_0.0.1.1"
 Name "TBX ${AppVersion} Setup"
 OutFile "TBX ${AppVersion}.exe"
 Icon "gallery/tbx-setup.ico"
 
-InstallDir "$DESKTOP\BYRg Studio\TBX\${AppVersion}"
-InstallDirRegKey HKLM "Software\BYRg Studio\TBX ${AppVersion}" "Install_Directory"
+InstallDir "$DESKTOP\BYRg_Studio\TBX\${AppVersion}"
+InstallDirRegKey HKLM "Software\BYRg_Studio\TBX_${AppVersion}" "Install_Directory"
 
 RequestExecutionLevel admin
 SetCompress auto
@@ -36,9 +38,9 @@ UninstallButtonText "Odinstaluj"
 ###
 
 VIAddVersionKey "CompanyName" "BYRg Studio"
-VIAddVersionKey "FileDescription" "TBX ${AppVersion} Setup"
+VIAddVersionKey "FileDescription" "TBX Installer (for ${AppVersion})"
 VIAddVersionKey "ProductName" "TBX"
-VIAddVersionKey "Comments" "hotfix 3/22-04-2024"
+VIAddVersionKey "Comments" ""
 VIAddVersionKey "LegalCopyright" "(CC) CopyCenter 2020-2024"
 VIAddVersionKey "FileVersion" "0.2.0.0"
 VIProductVersion "0.0.1.0"
@@ -56,14 +58,14 @@ Section "INSTALLER"
 	File /a /r "TBX_Alpha_0.0.1.0"
 	SetOutPath $INSTDIR
 
-	WriteRegStr HKLM '"Software\Microsoft\Windows\CurrentVersion\Uninstall\TBX\${AppVersion}"' "DisplayName" '"TBX ${AppVersion} Uninstaller"'
-	WriteRegStr HKLM '"Software\Microsoft\Windows\CurrentVersion\Uninstall\TBX\${AppVersion}"' "UninstallString" '"uninst(${AppVersion}).exe"'
-	WriteUninstaller '"uninst(${AppVersion}).exe"'
+	WriteRegStr HKLM '"Software\Microsoft\Windows\CurrentVersion\Uninstall\TBX\${AppVersion}"' "DisplayName" '"TBX Uninstaller (for ${AppVersion})"'
+	WriteRegStr HKLM '"Software\Microsoft\Windows\CurrentVersion\Uninstall\TBX\${AppVersion}"' "UninstallString" '"uninst_${AppVersion}.exe"'
+	WriteUninstaller '"uninst_${AppVersion}.exe"'
 SectionEnd
 
 Section "un.INSTALLER"
 	DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\TBX\${AppVersion}"
-	DeleteRegKey HKLM "Software\BYRg Studio\TBX ${AppVersion}"
+	DeleteRegKey HKLM "Software\BYRg_Studio\TBX_${AppVersion}"
 	Delete '$DESKTOP\BYRg Studio\TBX\${AppVersion}\*.*'
 	RMDir "$DESKTOP\BYRg Studio\TBX\${AppVersion}"
 SectionEnd
