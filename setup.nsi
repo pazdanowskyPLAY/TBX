@@ -1,3 +1,4 @@
+; przed kompilacj¹ nale¿y przenieœæ plik LICENSE do folderu gry!
 Unicode false
 ManifestSupportedOS all
 

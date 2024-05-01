@@ -1,36 +1,37 @@
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-	CHANGELOG FOR TBX ALPHA "PHOENIX" (PL_pl)
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+=================================================
+    CHANGELOG FOR TBX ALPHA "PHOENIX" (PL_pl)
+=================================================
 
  LEGENDA:
- (data)- TBX (tryb rozwoju)(wersja)(stan wersji)([unstable][hotfix][snapshot][candidate] numer budowy wersji) - (język)(użytkownik/cy wprowadzający zmiany)-(opis)
+ (data)- TBX (tryb rozwoju)([wersja][sub-wersja][snapshot][hotfix]) - (język)(użytkownik/cy wprowadzający zmiany)-(opis)
  
 = xERR - wersja posiadająca błędy, niezdolna do uruchomienia
 = oERR - wersja posiadająca błędy, zdolna do uruchomienia
+= RISK - wersja mogąca uszkodzić dane na komputerze
 = DONE - wersja skończona
 = oDEL - wersja usunięta całkowicie
 = xDEL - wersja usunięta w pewnej części
 = PLAN - wersja planowana
 = #### - wersja niesprawdzana lub/i nieznana
 = UNKN - wersja niewystarczająco sprawdzona
+= DEV+ - wersja dostępna tylko dla deweloperów
 
-
-
- 15.02.2024 - TBX Alpha 0.0.1 hotfix 1 - (oERR)
-	# zmiana języka na C# (Mono .NET)
+ --.--.2024 - TBX Alpha 0.0.1.1 - (PL_pl)(_mtjkh,pulpitaro)(####,oERR,PLAN)
+	# zmiana języka na C# (.NET Framework 4.8, Visual Studio)
 	# nowa struktura folderów
 	# nowe materiały graficzne gry
 	# rozpoczęto prace nad pierwszym aktem gry
-	# nowy instalator - TBXSetup 0.1.0 (NSIS)
-	# 
+	# nowy instalator - TBX Installer (NSIS)
+	# projekt dostępny na platformie Github
+	# nowa strona internetowa
+	# nowy wygląd TBX_Launcher (tylko dla wersji DEV)
+	# easter egg
 
+=================================================
+      COPYRIGHT © 2020-2024 - BYR STUDIO
+=================================================
 
-========================================
-
-== NightUpdate 1-??? "Carbon"
-= 1.0-??? "Imperatus"
-= Beta 1.0.0-??? "Odyssey"
-= Alpha 0.1.1-??? "Phoenix"
-
- COPYRIGHT © 2020-2024 - BYR STUDIO
- ZAKAZ PUBLIKACJI BEZ ZGODY STUDIA
+planowane wersje:
+= 1.0-??? "Carbon"
+= Beta 1.0.0.0-??? "Odyssey"
+= Alpha 0.0.1.0-??? "Phoenix"

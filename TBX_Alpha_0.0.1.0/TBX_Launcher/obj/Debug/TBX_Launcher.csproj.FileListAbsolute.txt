@@ -8,3 +8,5 @@ C:\Users\milpaz\source\repos\TBX_Launcher\obj\Debug\TBX_Launcher.csproj.Generate
 C:\Users\milpaz\source\repos\TBX_Launcher\obj\Debug\TBX_Launcher.csproj.CoreCompileInputs.cache
 C:\Users\milpaz\source\repos\TBX_Launcher\obj\Debug\TBX_Launcher.exe
 C:\Users\milpaz\source\repos\TBX_Launcher\obj\Debug\TBX_Launcher.pdb
+C:\Users\nazwa\Desktop\TBX_DEV\project-tbx\TBX_Alpha_0.0.1.0\TBX_Launcher\obj\Debug\TBX_Launcher.exe
+C:\Users\nazwa\Desktop\TBX_DEV\project-tbx\TBX_Alpha_0.0.1.0\TBX_Launcher\obj\Debug\TBX_Launcher.pdb
