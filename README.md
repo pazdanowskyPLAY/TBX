@@ -5,6 +5,7 @@ PL: Gra tekstowa z gatunku horror/science-fiction/przygodowe
 
 ## Current version/Obecna wersja
 T.B.X. Alpha 0.0.1.0
+More informations are [here](https://pazdanowskyplay.github.io/project-tbx/)
 
 > [!WARNING]
 > Please keep this in mind, **the entire project and README.md are STILL in development!**
