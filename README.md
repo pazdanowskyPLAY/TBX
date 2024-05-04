@@ -3,8 +3,13 @@ EN: Text-based horror/science-fiction/adventure game
 
 PL: Gra tekstowa z gatunku horror/science-fiction/przygodowe
 
-## Current version/Obecna wersja
+## Plot / Fabuła
+
+We don't have any for now :P but if you got some interesting ideas, please tell us [here](https://github.com/pazdanowskyPLAY/project-tbx/discussions/categories/ideas)
+
+## Current version / Obecna wersja
 T.B.X. Alpha 0.0.1.0
+
 More informations are [here](https://pazdanowskyplay.github.io/project-tbx/)
 
 > [!WARNING]
