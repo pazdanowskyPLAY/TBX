@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TBX_Launcher.exe" size="11264">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TBX_Launcher.exe" size="11776">
       <assemblyIdentity name="TBX_Launcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WLbLiA1rQms+0I/rYlUlYKOCenunbsjgzdWdvY9lkSM=</dsig:DigestValue>
+        <dsig:DigestValue>a7SV8CBY0BEQdrdkZYPeYyRAjWRt2qvm2JFwqvYPEl0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

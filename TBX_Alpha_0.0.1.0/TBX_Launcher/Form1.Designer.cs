@@ -66,10 +66,11 @@
             this.checkBox1.Location = new System.Drawing.Point(14, 79);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(91, 20);
+            this.checkBox1.Size = new System.Drawing.Size(111, 20);
             this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.Text = "I\'m a developer";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // password_TextBox
             // 
@@ -93,6 +94,7 @@
             this.signIn_Button.TabIndex = 4;
             this.signIn_Button.Text = "Sign in / Log in";
             this.signIn_Button.UseVisualStyleBackColor = true;
+            this.signIn_Button.Click += new System.EventHandler(this.signIn_Button_Click);
             // 
             // logo_PictureBox
             // 
@@ -125,6 +127,7 @@
             this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TBX_Launcher";
+
             ((System.ComponentModel.ISupportInitialize)(this.logo_PictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

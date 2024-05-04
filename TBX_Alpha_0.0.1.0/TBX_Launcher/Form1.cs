@@ -16,5 +16,17 @@ namespace TBX_Launcher
         {
             InitializeComponent();
         }
+
+#pragma warning disable IDE1006 // Style nazewnictwa
+        private void signIn_Button_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+#pragma warning restore IDE1006 // Style nazewnictwa
     }
 }
