@@ -1,55 +1,36 @@
 /* main css file for website */
 
+
+/*body*/
 body {
-    font-size: 16px;
-    background-color: #808080;
+    background-color: #a0a0a0;
     font-family: 'Arial', sans-serif, serif;
+    font-size: 16px;
 }
 
-#container {
-    width: 900px;
-    text-align: center;
-    margin: auto;
-    padding: 10px;
-    border-radius: 5px;
-    border: 5px solid #0000ff;
-}
+
+
+/*div structures*/
 
 #navbar {
-    float: right;
-    text-align: center;
-    background-color: lightgray;
-    width: 100px;
-    padding: 5px;
-}
-
-#logo{
     float: left;
 }
 
 #loginbox {
+    float: left;
+}
+
+#files {
     float: center;
-    text-align: left;
 }
 
-.info-red {
-    clear:both;
-    background-color: #ff0000;
-    padding: auto;
-    border: 1px solid #ffffff;
-    border-left: 10px solid #ffffff;
+#credits {
+    clear: both;
 }
 
-.info-blue {
-
-}
-
-.info-yellow {
-
-}
-
-#start {
-
+td {
+    padding: 5px;
+    background-color: #96D4D4;
 }
 
 #files {
@@ -60,25 +41,104 @@ body {
     border-radius: 5px;
     margin: auto;
 }
+/*Div structures - end*/
 
-#news {
 
+/*log-form structure*/
+#log-textboxes {
+    float: left;
 }
 
-#credits {
-
+#buttons {
+    float: left;
 }
 
-#footer {
-    clear: both;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px;
+/*log-form structure - end*/
+
+
+/*Div stylesheet*/
+
+    /*Container*/
+    #container {
+        width: 900px;
+        margin: auto;
+        padding: 10px;
+        border-radius: 5px;
+        border: 5px double #0000ff;
+    }
+
+    /*Header*/
+    #header {
+        
+    }
+
+    /*Navbar*/
+    #navbar {
+        text-align: center;
+        background-color: lightgray;
+        width: 100px;
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    /*Loginbox*/
+    #loginbox {
+
+    }
+
+
+
+
+
+
+    /*footer*/
+    #footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+/*Div stylesheet - end*/
+
+
+/*classes*/
+
+.loginbox-right {
+    float: left;
 }
 
-td {
-    padding: 5px;
-    background-color: #96D4D4;
-}
 
+
+
+
+
+
+
+
+
+
+
+
+/*infobox status*/
+
+    /*red (attention)*/
+    .info-red {
+        clear:both;
+        background-color: #ff0000;
+        padding: auto;
+        border: 1px solid #ffffff;
+        border-left: 10px solid #ffffff;
+    }
+
+    /*blue (version info)*/
+    .info-blue {
+
+    }
+
+    /*yellow (other)*/
+    .info-yellow {
+
+    }
+
+/*infobox status - end*/
