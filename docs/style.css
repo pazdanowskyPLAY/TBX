@@ -9,49 +9,50 @@ body {
 }
 
 
-
 /*div structures*/
 
-#navbar {
-    float: left;
-}
+    #navbar {
+        float: left;
+    }
 
-#loginbox {
-    float: left;
-}
+    #loginbox {
+        float: left;
+    }
 
-#files {
-    float: center;
-}
+    #files {
+        float: center;
+    }
 
-#credits {
-    clear: both;
-}
+    #credits {
+        clear: both;
+    }
 
-td {
-    padding: 5px;
-    background-color: #96D4D4;
-}
+    td {
+        padding: 5px;
+        background-color: #96D4D4;
+    }
 
-#files {
-    width: 600px;
-    float: auto;
-    table-layout:auto;
-    border: 3px solid white;
-    border-radius: 5px;
-    margin: auto;
-}
+    #files {
+        width: 600px;
+        float: auto;
+        table-layout:auto;
+        border: 3px solid white;
+        border-radius: 5px;
+        margin: auto;
+    }
+
 /*Div structures - end*/
 
 
 /*log-form structure*/
-#log-textboxes {
-    float: left;
-}
 
-#buttons {
-    float: left;
-}
+    #loginbox-textboxes {
+        float: left;
+    }
+
+    #loginbox-buttons {
+        float: left;
+    }
 
 /*log-form structure - end*/
 
@@ -84,12 +85,10 @@ td {
     /*Loginbox*/
     #loginbox {
 
+
+
+
     }
-
-
-
-
-
 
     /*footer*/
     #footer {
@@ -126,9 +125,9 @@ td {
     .info-red {
         clear:both;
         background-color: #ff0000;
-        padding: auto;
         border: 1px solid #ffffff;
         border-left: 10px solid #ffffff;
+        padding-left: 10px;
     }
 
     /*blue (version info)*/
