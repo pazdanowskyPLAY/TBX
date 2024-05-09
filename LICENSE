@@ -1,39 +1,21 @@
-TBX Alpha 0.0.1.0 (TEXT MODE)
-BYRg Studio 2020-2024, Some Rights Reserved And Some Not (SRRASN).
-This Licence/EULA has been last updated on: 05 May, 2024
+MIT License
 
-----------
-PL:
-1. Rozpowszechnianie projektu jest dozwolone pod poniższymi warunkami:
-    - Osoba, która chce udostępnić projekt, musi uwzględnić rzeczywistych autorów oprogramowania
-    - Osoba, która chce udostępnić projekt, nie może przedstawić siebie za autora projektu
-    - Osoba, która chce udostępnić projekt, nie może uwzględnić w nim całego lub częściowego kodu źródłowego
-2. Modyfikowanie projektu jest dozwolone pod poniższymi warunkami:
-    - Projekt można dowolnie modyfikować wyłącznie podczas użytku osobistego
-    - Osoba, która chce stworzyć modyfikację gry i udostępnić ją publicznie, musi zastosować do niej licencję CC BY-NC-SA 4.0 lub licencję CC BY-NC-ND 4.0
-    - Osoba, która chce stworzyć modyfikację gry i udostępnić ją publicznie, musi również uwzględnić rzeczywistych autorów oryginalnego oprogramowania
-3. Zastosowanie projektu lub jego modyfikacji do celów komercyjnych jest zabronione
-4. Rozpowszechnianie kont i kluczy deweloperskich jest zabronione
-5. Rozpowszechnianie kodu źródłowego jest zabronione
-6. W przypadku, gdy użytkownik odkryje poważny błąd w oprogramowaniu, który jest w stanie zaszkodzić danym innych użytkowników i ich sprzętom, ma bezzwłoczny nakaz poinformowania o tym autorów projektu
-7. BYRg Studio i wolontariusze projektu nie biorą odpowiedzialniości za szkody poniesione przez niewłaściwe korzystanie z programu czy też uruchamiania niestabilnych wersji programu
-8. W przypadku zmiany lub aktualizacji licencji poprzednie wersje oprogramowania są objęte starą licencją, chyba że autorzy zażyczą trwałej zmiany, przy czym muszą wyraźnie poinformować użytkowników o zmianach przynajmniej 14 dni przed ich wprowadzeniem.
-9. Użytkownik, pobierając lub udostępniając lub uruchamiając program, dobrowolnie akceptuje wszystkie powyżej przedstawione warunki.
+Copyright (c) 2019-2024, 4amateurs Community
 
-----------
-ENG:
-(1) Redistribution of the project is authorised under the following conditions:
-    - The person who wants to share the project must include the actual authors of the software.
-    - The person who wants to share the project must not present himself or herself as THE author of the project.
-    - The person who wants to share the project must not include all or part of the source code.
-(2) Modification of the project is authorised under the following conditions:
-    - The project may only be freely modified during personal use.
-    - A person who wants to create a game modification and make it available to the public must apply the CC BY-NC-SA 4.0 license or the CC BY-NC-ND 4.0 license to it.
-    - A person who wants to create a game modification and make it available to the public must also include the actual authors of the original software.
-(3) The use of the project or its modifications for commercial purposes is prohibited.
-(4) The distribution of developer accounts and keys is prohibited.
-(5) The distribution of the source code is prohibited.
-(6) In case where the user discovers a serious bug in the software that is capable of harming other users' data and their hardware, he/she has an immediate obligation to inform the project authors.
-(7) BYRg Studio and the project volunteers are not liable for damages caused by misuse of the software or running unstable versions of the software.
-(8) In case of a change or update of the licence, previous versions of the software remain under the old licence, unless the authors wish a permanent change, whereby they must explicitly inform users of the changes at least 14 days before they are implemented.
-(9) By downloading or sharing or running the software, the user voluntarily accepts all of the above conditions.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
