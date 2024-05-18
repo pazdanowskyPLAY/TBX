@@ -1,5 +1,3 @@
-# Security Policy / Polityka bezpieczeństwa
-
 ## Supported Versions: / Wspierane wersje:
 
 | Version              | isSupported   |
