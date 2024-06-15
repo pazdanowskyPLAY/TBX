@@ -1,0 +1,15 @@
+Name: [name of bug report]
+About: [in short version, what's the deal with this bug?]
+
+Summary: [explain this bug in longer version]
+---
+Steps: [how did you discover this bug?]
+    1. Go to [...]
+    2. Click on [...]
+    3. Scroll down to [...]
+    4. See error
+
+[IMPORTANT! include screenshots]
+
+
+!!! [please attach proper labels to discord post in #forum] !!!

@@ -1,0 +1,13 @@
+Name: [name of feature request]
+About: [in short version, what this feature will change?]
+
+Summary: [explain this feature in longer version]
+    - Prons: [...]
+    - Cons: [any risks/danger?]
+    - Alternative solutions/features: [...]
+
+
+[IMPORTANT! include screenshots/concept arts]
+
+
+!!! [please attach proper labels to discord post in #forum] !!!

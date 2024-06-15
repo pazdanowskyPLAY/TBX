@@ -1,0 +1,143 @@
+/* main css file for website */
+
+
+/*body*/
+body {
+    background-color: #a0a0a0;
+    font-family: 'Arial', sans-serif, serif;
+    font-size: 16px;
+}
+
+
+/*div structures*/
+
+    #navbar {
+        float: left;
+    }
+
+    #loginbox {
+        float: left;
+    }
+
+    #files {
+        float: center;
+    }
+
+    #credits {
+        clear: both;
+    }
+
+    td {
+        padding: 5px;
+        background-color: #96D4D4;
+    }
+
+    #files {
+        width: 600px;
+        float: auto;
+        table-layout:auto;
+        border: 3px solid white;
+        border-radius: 5px;
+        margin: auto;
+    }
+
+/*Div structures - end*/
+
+
+/*log-form structure*/
+
+    #loginbox-textboxes {
+        float: left;
+    }
+
+    #loginbox-buttons {
+        float: left;
+    }
+
+/*log-form structure - end*/
+
+
+/*Div stylesheet*/
+
+    /*Container*/
+    #container {
+        width: 900px;
+        margin: auto;
+        padding: 10px;
+        border-radius: 5px;
+        border: 5px double #0000ff;
+    }
+
+    /*Header*/
+    #header {
+        
+    }
+
+    /*Navbar*/
+    #navbar {
+        text-align: center;
+        background-color: lightgray;
+        width: 100px;
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    /*Loginbox*/
+    #loginbox {
+
+
+
+
+    }
+
+    /*footer*/
+    #footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+/*Div stylesheet - end*/
+
+
+/*classes*/
+
+.loginbox-right {
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*infobox status*/
+
+    /*red (attention)*/
+    .info-red {
+        clear:both;
+        background-color: #ff0000;
+        border: 1px solid #ffffff;
+        border-left: 10px solid #ffffff;
+        padding-left: 10px;
+    }
+
+    /*blue (version info)*/
+    .info-blue {
+
+    }
+
+    /*yellow (other)*/
+    .info-yellow {
+
+    }
+
+/*infobox status - end*/

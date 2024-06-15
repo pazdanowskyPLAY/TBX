@@ -1,143 +1,167 @@
 /* main css file for website */
 
-
-/*body*/
-body {
-    background-color: #a0a0a0;
-    font-family: 'Arial', sans-serif, serif;
-    font-size: 16px;
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto/Roboto-Regular.ttf);
 }
 
+body {
+    font-family: Roboto,'Verdana','Tahoma', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #808080;
+    word-wrap: break-word;
+}
 
-/*div structures*/
-
-    #navbar {
-        float: left;
-    }
-
-    #loginbox {
-        float: left;
-    }
-
-    #files {
-        float: center;
-    }
-
-    #credits {
-        clear: both;
-    }
-
-    td {
-        padding: 5px;
-        background-color: #96D4D4;
-    }
-
-    #files {
-        width: 600px;
-        float: auto;
-        table-layout:auto;
-        border: 3px solid white;
-        border-radius: 5px;
-        margin: auto;
-    }
-
-/*Div structures - end*/
-
-
-/*log-form structure*/
-
-    #loginbox-textboxes {
-        float: left;
-    }
-
-    #loginbox-buttons {
-        float: left;
-    }
-
-/*log-form structure - end*/
-
-
-/*Div stylesheet*/
-
-    /*Container*/
+    /* ---------- container ---------- */
     #container {
-        width: 900px;
+        width: 1000px;
         margin: auto;
         padding: 10px;
-        border-radius: 5px;
-        border: 5px double #0000ff;
+        border: 5px solid #000000;
     }
 
-    /*Header*/
-    #header {
+        /* ---------- header ---------- */
+        #header {
+            /* float: center; */
+        }
+
+            #logo {
+                /* background: url(images/tbx-logo-cs.png); */
+                float: left;
+                margin-bottom: 10px;
+                width: 600px; 
+                height: 200px;
+                image-rendering: pixelated;
+            }
+
+            #loginbox {
+                float: right;
+            }
+            
+            /* visuals */
+                #login, #password, #id-c2, #login-button, #signin-button {
+                    background-color: #000000;
+                    color: #ffffff;
+                    float: right;
+                }
+
+                #loginbox, #start {
+                    color: #ffffff;
+                }
+
+                .loginbox-textboxes {
+                    padding: 5px;
+                    margin: 2px;
+                    font-family: 'Courier New', 'Courier', monospace;
+                    width: 300px;
+                }
+
+                .loginbox-buttons {
+                    padding: 5px;
+                    margin: 2px;
+                } 
+
+                #if-dev {
+                    margin-top: 10px;
+                }
+            /* end of visuals */
+
+        /* ---------- end of header ---------- */
+
+        /* navbar and visuals */
+        #navbar {
+            width:998px;
+            background-color: #404040;
+            float: left;
+            margin-bottom: 10px;
+            border: 1px solid #ffffff;
+            a {
+                float: left;
+                display: block;
+                text-align: center;
+                padding: 10px 10px;
+            }
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+        }
+        .sticky + #articles {
+            padding-top: 45px;
+        }
+        /* end of navbar and visuals */
         
-    }
+        /* ---------- articles ---------- */
+        #articles {
+            clear:both;
+        }
 
-    /*Navbar*/
-    #navbar {
-        text-align: center;
-        background-color: lightgray;
-        width: 100px;
-        padding: 5px;
-        margin-right: 10px;
-    }
+            /* ---------- info boxes ---------- */
+            .info-red, .info-blue, .info-yellow {
+                padding: 0px 10px 0px 10px;
+                background-color: #404040;
+                margin: 10px 0px 10px 0px;
+            }
 
-    /*Loginbox*/
-    #loginbox {
-
-
-
-
-    }
-
-    /*footer*/
-    #footer {
-        background-color: black;
-        color: white;
-        text-align: center;
-        padding: 20px;
-    }
-
-/*Div stylesheet - end*/
+            .info-red {
+                border: 5px solid #ff0000;
+                border-left: 20px solid #ff0000;
+            }
+            .info-blue {
+                border: 5px solid #006eff;
+                border-left: 20px solid #006eff;
+            }
+            .info-yellow {
+                border: 5px solid #e5ff00;
+                border-left: 20px solid #e5ff00;
+            }
+            /* ---------- end of info boxes ---------- */
 
 
-/*classes*/
+            .sections {
+                border: 1px solid #ffffff;
+                padding: 0px 10px 10px 10px;
+            }
 
-.loginbox-right {
-    float: left;
-}
+            .sections-title {
+                text-align: right;
+                padding-top: 10px;
+            }
 
+            /* ---------- end of articles ---------- */
 
+        td {
+            padding: 5px;
+            color: #fff;
+            background-color: #4eafaf;
+            a {
+                color: #faffad;
+            }
+            a:hover {
+                color: #f4ff60;
+            }
+        }
 
+        #footer {
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            a {
+                text-decoration: none;
+                color: #ffffff
+            }
+        }
 
+        a {
+            color: #40eeff;
+        }
+        a:hover {
+            color: #40aeff;
+        }
 
+    /* ---------- end of container ---------- */
 
-
-
-
-
-
-
-
-/*infobox status*/
-
-    /*red (attention)*/
-    .info-red {
-        clear:both;
-        background-color: #ff0000;
-        border: 1px solid #ffffff;
-        border-left: 10px solid #ffffff;
-        padding-left: 10px;
-    }
-
-    /*blue (version info)*/
-    .info-blue {
-
-    }
-
-    /*yellow (other)*/
-    .info-yellow {
-
-    }
-
-/*infobox status - end*/
+/* ---------- end of body ---------- */

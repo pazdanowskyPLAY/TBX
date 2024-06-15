@@ -1,96 +1,121 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Project T.B.X.</title>
+        <title>TBX - Main Page</title>
         <meta charset="UTF-8"/>
 		<link rel="icon" type="image/x-icon" href="./images/tbx-game.ico">
         <meta name="description" content="BYRg Studio is independent game studio full of amateurs and unprofessionalists. Click for more info!"/>
-        <meta name="author" content="_a00"/>
+        <meta name="author" content="pulpitaro"/>
         <link rel="stylesheet" type="text/css" href="./style.css"/>
     </head>
 
-    <body>
+	<!-- onselectstart="event.stopPropagation(); window.event.returnValue=false;" - wyłączanie zaznaczania tekstu -->
+    <body >
         <div id="container">
-			<img src="./images/tbx-logo-cs.png" alt="logo tbx-logo-cs" id="logo"/><br/>
+
+			<div id="header">
+				<div id="logo">
+					<img src="./images/tbx-logo-cs.png" alt="TBX logo" usemap="#workmap"/>
+					<map name="workmap">
+						<area shape="rect" coords="594,0,596,1" href="./archived2000.html">
+						<area shape="rect" coords="512,73,555,92" href="#comingsoon">
+					</map>
+				</div>
+				<div id="loginbox">
+					<form action="test.php" target="_self" method="post" autocomplete="off" enctype="multipart/form-data">
+						<input class="loginbox-textboxes" type="text" name="login" placeholder="LOGIN" minlength="3" maxlength="32" id="login" required><br/>
+						<input class="loginbox-textboxes" type="text" name="passw" placeholder="PASSWORD" minlength="7" maxlength="32" id="password" required><br/>
+						<input class="loginbox-textboxes" type="text" name="passw-id" placeholder="ID_C2" minlength="16" maxlength="32" id="id-c2" required><br/>
+						<div id="loginbox-buttons">
+							<style>
+
+							</style>
+							<button class="loginbox-buttons" type="submit" id="login-button"> Log in </button>
+							<button class="loginbox-buttons" type="button" id="signin-button"> Sign in </button>
+							<input class="loginbox-buttons" type="checkbox" id="if-dev" checked> I'm developer </input>
+						</div>
+					</form>
+				</div>
+			</div>
+
 			<div id="navbar">
-				<a href="#start">Start</a> 
-				<a href="#news">News</a> 
-				<a href="#files">Download</a> 
-				<a href="#discord">Discord</a>
+				<a href="#start" style="width:230px"> Start </a> 
+				<a href="#news" style="width:230px"> News </a> 
+				<a href="#download" style="width:230px"> Download </a> 
+				<a href="#credits" style="width:225px"> Credits </a>
+				<a href="./images/button.png" style="padding:1px 1px 30px 1px"></a>
 			</div>
 
-			<div id="loginbox">
-				<form action="test.php" target="_self" method="post" autocomplete="off" enctype="multipart/form-data">
-					<div id="loginbox-textboxes">
-					<input type="text" name="login" placeholder="LOGIN" minlength="3" maxlength="32" id="login" required><br/>
-					<input type="password" name="passw" placeholder="PASSWORD" minlength="7" maxlength="32" id="passwodrd" required><br/>
-					<input type="password" name="passw-id" placeholder="ID_C2" minlength="6" maxlength="16" id="id-c2" required><br/>
-					</div>
-					<div id="loginbox-buttons">
-					<button type="submit" id="login-button" disabled>Log in</button><br/>
-					<button type="button" id="signin-button" disabled>Sign in</button><br/>
-					<input type="checkbox" name="if-dev" checked id="dev" disabled>I'm developer<br/>
-					</div>
-				</form><br/><br/><br/><br/>
-			</div>
+			<div id="articles"><br/><br/>
+				<div class="info-red">
+					<p><strong>UWAGA!</strong> Strona w trakcie przebudowy. Prosimy o cierpliwość.</p>
+				</div>
+				
+            	<article class="sections">
+					<div class="sections-title">START</div><br/>
+					Welcome to our main page of TBX Project, the text-based sci-fi game!
+					
+				</article><br/>
 
-			<div class="info-red">
-				<p><strong>UWAGA!</strong> Strona w trakcie przebudowy. Prosimy o cierpliwość.</p>
-			</div> 
+				<article class="sections">
+					<div class="sections-title">NEWS</div><br/>
+					Recent changes:
+					<ul>
+						<li>Visual changes on our website</li>
+					</ul>
+				</article><br/>
+				
+            	<article class="sections">
+					<div class="sections-title">DOWNLOAD FILES</div><br/>
+					<table id="table-files">
+						<tr>
+							<td>FILES</td>
+							<td>Stable build</td>
+							<td>Night build</td>
+							<td>Night build (DEV ONLY)</td>
+						</tr>
+							<tr>
+							<td>Windows</td>
+							<td><a href="https://github.com/pazdanowskyPLAY/tbx-archive/releases">TBX CPminus 2.5b [download]</a></td>
+							<td><a href="https://github.com/pazdanowskyPLAY/project-tbx/releases">TBX Alpha 0.0.1.0 [download]</a></td>
+							<td><a href="https://github.com/pazdanowskyPLAY/project-tbx/activity">TBX DEV hotfix 12 [download]</a></td>
+						</tr>
+						<tr>
+							<td>Linux</td>
+							<td>NOT SUPPORTED YET</td>
+							<td>NOT SUPPORTED YET</td>
+							<td>NOT SUPPORTED YET</td>
+						</tr>
+					</table>
+				</article><br/>
+        	    <article class="sections">
+					<div class="sections-title">CREDITS</div><br/>
+					<a href="mailto:byrgstudio.contact@gmail.com">Send email</a><br/>
+					<a href="#news">Go to news</a><br/>
+				</article>
 
-            <div id="start">
-				<hr/>
-				<button onclick="typewriter1()"> Was ist das? </button>
-				<p id="demo"></p> 
-				<script>
-					var i = 0;
-					var txt = "BYRg Studio is independent game studio full of amateurs and unprofessionalists."; /* The text */
-					var speed = 20; /* The speed/duration of the effect in milliseconds */
-					function typewriter1() {
-						if (i < txt.length) {
-							document.getElementById("demo").innerHTML += txt.charAt(i);
-							i++;
-							setTimeout(typewriter1, speed);
-						} }
-				</script>
-                
-                BYRg Studio - T.B.X.<br/>
-                coming soon, q4-2k24-0101<br/>
+			
+        	</div><br/>
 
-                <!--<div aria-busy="true" aria-describedby="progress-bar"></div>-->
-                <progress id="progress-bar" aria-label="Content loading..."></progress>
-            </div>
-            <div id="files">
-				<table id="table-files">
-					<tr>
-						<td>FILES</td>
-						<td>Stable build</td>
-						<td>Night build</td>
-						<td>Night build (DEV ONLY)</td>
-					</tr>
-					<tr>
-						<td>Windows</td>
-						<td><a href="https://github.com/pazdanowskyPLAY/tbx-archive/releases">TBX CPminus 2.5b</a></td>
-						<td><a href="https://github.com/pazdanowskyPLAY/project-tbx/releases">TBX Alpha 0.0.1.0 </a></td>
-						<td><a href="https://github.com/pazdanowskyPLAY/project-tbx/activity">TBX DEV hotfix 12</a></td>
-					</tr>
-					<tr>
-						<td>Linux</td>
-						<td>NOT SUPPORTED YET</td>
-						<td>NOT SUPPORTED YET</td>
-						<td>NOT SUPPORTED YET</td>
-					</tr>
-				</table>
-			</div>
-            <div id="news"></div>
-            <div id="credits">
-				<a href="mailto:byrgstudio.contact@gmail.com">Send email</a><br>
-				<a href="#news">Go to news</a><br>
-			</div>
-
-            <div id="footer">
-                BYRgStudio 2019-2024 (cc) CopyCenter<br/>
-            </div>
-        </div>
+			<script>
+				window.onscroll = function() {myFunction()};
+				var navbar = document.getElementById("navbar");
+				var sticky = navbar.offsetTop;
+				function myFunction() {
+					if (window.pageYOffset >= sticky) {
+						navbar.classList.add("sticky")
+					}
+					else {
+						navbar.classList.remove("sticky");
+					}
+				}
+			</script>
+			
+			<footer id="footer">
+				4amateurscommunity &copy; 2019-2024 - 
+				<a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a><br/>
+			</footer>
+		</div>
+		
     </body>
 </html>
