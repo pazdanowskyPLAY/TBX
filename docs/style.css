@@ -50,17 +50,16 @@ body {
                     color: #ffffff;
                 }
 
-                .loginbox-textboxes {
+                .loginbox-textboxes, .loginbox-buttons {
                     padding: 5px;
                     margin: 2px;
+                }
+
+                .loginbox-textboxes {
                     font-family: 'Courier New', 'Courier', monospace;
                     width: 300px;
                 }
 
-                .loginbox-buttons {
-                    padding: 5px;
-                    margin: 2px;
-                } 
 
                 #if-dev {
                     margin-top: 10px;
@@ -74,14 +73,14 @@ body {
             width:998px;
             background-color: #404040;
             float: left;
-            margin-bottom: 10px;
             border: 1px solid #ffffff;
-            a {
-                float: left;
-                display: block;
-                text-align: center;
-                padding: 10px 10px;
-            }
+        }
+
+        #navbar a {
+            float: left;
+            display: block;
+            text-align: center;
+            padding: 10px 10px;
         }
 
         .sticky {
@@ -92,33 +91,37 @@ body {
             padding-top: 45px;
         }
         /* end of navbar and visuals */
+
+
+
+        /* ---------- info boxes ---------- */
+        .info-red, .info-blue, .info-yellow {
+            padding: 0px 10px 0px 10px;
+            background-color: #404040;
+            margin: 10px 0px 10px 0px;
+        }
+
+        .info-red {
+            border: 5px solid #ff0000;
+            border-left: 20px solid #ff0000;
+        }
+        .info-blue {
+            border: 5px solid #006eff;
+            border-left: 20px solid #006eff;
+        }
+        .info-yellow {
+            border: 5px solid #e5ff00;
+            border-left: 20px solid #e5ff00;
+        }
+        /* ---------- end of info boxes ---------- */
         
+
+
         /* ---------- articles ---------- */
         #articles {
             clear:both;
+            /*border: 1px solid #ffffff*/
         }
-
-            /* ---------- info boxes ---------- */
-            .info-red, .info-blue, .info-yellow {
-                padding: 0px 10px 0px 10px;
-                background-color: #404040;
-                margin: 10px 0px 10px 0px;
-            }
-
-            .info-red {
-                border: 5px solid #ff0000;
-                border-left: 20px solid #ff0000;
-            }
-            .info-blue {
-                border: 5px solid #006eff;
-                border-left: 20px solid #006eff;
-            }
-            .info-yellow {
-                border: 5px solid #e5ff00;
-                border-left: 20px solid #e5ff00;
-            }
-            /* ---------- end of info boxes ---------- */
-
 
             .sections {
                 border: 1px solid #ffffff;
@@ -134,25 +137,27 @@ body {
 
         td {
             padding: 5px;
-            color: #fff;
+            color: #ffffff;
             background-color: #4eafaf;
-            a {
-                color: #faffad;
-            }
-            a:hover {
-                color: #f4ff60;
-            }
+        }
+
+        td a {
+            color: #faffad;
+        }
+        td a:hover {
+            color: #f4ff60;
         }
 
         #footer {
-            background-color: black;
-            color: #fff;
+            background-color: #000000;
+            color: #ffffff;
             text-align: center;
             padding: 20px;
-            a {
-                text-decoration: none;
-                color: #ffffff
-            }
+        }
+
+        #footer a {
+            text-decoration: none;
+            color: #ffffff
         }
 
         a {
