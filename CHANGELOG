@@ -2,21 +2,23 @@
     CHANGELOG FOR TBX ALPHA "PHOENIX" (PL_pl)
 =================================================
 
- LEGENDA:
- (data)- TBX (tryb rozwoju)([wersja][sub-wersja][snapshot][hotfix]) - (język)(użytkownik/cy wprowadzający zmiany)-(opis)
- 
-= xERR - wersja posiadająca błędy, niezdolna do uruchomienia
-= oERR - wersja posiadająca błędy, zdolna do uruchomienia
-= RISK - wersja mogąca uszkodzić dane na komputerze
-= DONE - wersja skończona
-= oDEL - wersja usunięta całkowicie
-= xDEL - wersja usunięta w pewnej części
-= PLAN - wersja planowana
-= #### - wersja niesprawdzana lub/i nieznana
-= UNKN - wersja niewystarczająco sprawdzona
-= DEV+ - wersja dostępna tylko dla deweloperów
+LEGENDA:
+(data)- TBX (tryb rozwoju)([wersja][sub-wersja][snapshot][hotfix]) - (język)(użytkownik/cy wprowadzający zmiany)-(opis)
 
- --.--.2024 - TBX Alpha 0.0.1.1 - (PL_pl)(_mtjkh,pulpitaro)(####,oERR,PLAN)
+{
+	= xERR - wersja posiadająca błędy, niezdolna do uruchomienia
+	= oERR - wersja posiadająca błędy, zdolna do uruchomienia
+	= RISK - wersja mogąca uszkodzić dane na komputerze
+	= DONE - wersja skończona
+	= oDEL - wersja usunięta całkowicie
+	= xDEL - wersja usunięta w pewnej części
+	= PLAN - wersja planowana
+	= #### - wersja niesprawdzana lub/i nieznana
+	= UNKN - wersja niewystarczająco sprawdzona
+	= DEV+ - wersja dostępna tylko dla deweloperów
+}
+
+--.--.2024 - TBX Alpha 0.0.1.1 - (PL_pl)(_mtjkh,pulpitaro)(####,oERR,PLAN)
 	# zmiana języka na C# (.NET Framework 4.8, Visual Studio)
 	# nowa struktura folderów
 	# nowe materiały graficzne gry
@@ -28,10 +30,12 @@
 	# easter egg
 
 =================================================
-      COPYRIGHT © 2020-2024 - BYR STUDIO
+   COPYRIGHT © 2020-2024 - 4amateurscommunity
 =================================================
 
 planowane wersje:
 = 1.0-??? "Carbon"
 = Beta 1.0.0.0-??? "Odyssey"
 = Alpha 0.0.1.0-??? "Phoenix"
+= ClosedPreview 2.5b_0-20 "Experimentus"
+= ClosedPreview 2.0-2.5b "Leila"

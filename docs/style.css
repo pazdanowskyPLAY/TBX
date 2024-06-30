@@ -23,7 +23,7 @@ body {
 
         /* ---------- header ---------- */
         #header {
-            /* float: center; */
+            
         }
 
             #logo {
@@ -120,7 +120,7 @@ body {
         /* ---------- articles ---------- */
         #articles {
             clear:both;
-            /*border: 1px solid #ffffff*/
+            border: 1px solid #ffffff
         }
 
             .sections {
@@ -132,7 +132,6 @@ body {
                 text-align: right;
                 padding-top: 10px;
             }
-
             /* ---------- end of articles ---------- */
 
         td {
