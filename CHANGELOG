@@ -3,39 +3,56 @@
 =================================================
 
 LEGENDA:
-(data)- TBX (tryb rozwoju)([wersja][sub-wersja][snapshot][hotfix]) - (język)(użytkownik/cy wprowadzający zmiany)-(opis)
+(data)- TBX (faza rozwoju i numer)(tryb wersji i numer) - (język)(opis)
+PrzykładY:
+    02/07/2024 - TBX build 8225112911 - (PL_pl)(DEVONLY,MISTAKE)
+    19/05/2023 - TBX Alpha 1.3.0.14 - (PL_pl)(OPENPUB,UNKNOWN)
+    29/11/2019 - TBX (FULL) 1.0.2.0 - (PL_pl)(OPENPUB,BIGRISK)
+
+Fazy rozwoju: NULL/night, Alpha, Beta, Gamma(Pre-releases - ClosedPreview, openGamma), FULL
+Tryby wersji: API/major, candidate/minor, patch, hotfix, build
+Numeracja:
+    [NULL]: MMDDHHNN (NN-numer,DD-dzień,MM-miesiąc,HH-godzina,NN-numer)
+    Alpha oraz Beta: [0/1 API].[minor].[patch].[hotfix]+[build]
+    ClosedPreview: [major].[candidate].[patch].[hotfix]
+    openGamma: [major].[candidate].[patch].[hotfix]+[build]
+    FULL:   [major].[minor].[patch].0
+    FULLDEV:[major].[candidate].[patch].[hotfix]+[build]
+
 
 {
-	= xERR - wersja posiadająca błędy, niezdolna do uruchomienia
-	= oERR - wersja posiadająca błędy, zdolna do uruchomienia
-	= RISK - wersja mogąca uszkodzić dane na komputerze
-	= DONE - wersja skończona
-	= oDEL - wersja usunięta całkowicie
-	= xDEL - wersja usunięta w pewnej części
-	= PLAN - wersja planowana
-	= #### - wersja niesprawdzana lub/i nieznana
-	= UNKN - wersja niewystarczająco sprawdzona
-	= DEV+ - wersja dostępna tylko dla deweloperów
+	= MISTAKE - wersja posiadająca poważne/widoczne błędy
+	= BIGRISK - wersja mogąca uszkodzić dane na komputerze
+	= REMOVED - wersja usunięta/zaginiona
+	= PLANNIN - wersja planowana
+	= UNKNOWN - wersja niesprawdzona
+	= DEVONLY - wersja dostępna tylko dla deweloperów
+	= PRIVATE - wersja dostępna dla ograniczonej liczby użytkowników
+	= OPENPUB - wersja otwarta dla wszytskich
 }
 
---.--.2024 - TBX Alpha 0.0.1.1 - (PL_pl)(_mtjkh,pulpitaro)(####,oERR,PLAN)
+--.--.2024 - TBX 0024070209 - (PL_pl)(PLANNIN, DEVONLY)
 	# zmiana języka na C# (.NET Framework 4.8, Visual Studio)
 	# nowa struktura folderów
 	# nowe materiały graficzne gry
 	# rozpoczęto prace nad pierwszym aktem gry
 	# nowy instalator - TBX Installer (NSIS)
-	# projekt dostępny na platformie Github
+	# projekt dostępny na platformie Github (bez kodu źródłowego)
 	# nowa strona internetowa
 	# nowy wygląd TBX_Launcher (tylko dla wersji DEV)
-	# easter egg
+	# easter eggs!
+	# nowy projekt fabuły
 
 =================================================
-   COPYRIGHT © 2020-2024 - 4amateurscommunity
+   COPYRIGHT © 2019-2024 - 4amateurscommunity
 =================================================
 
 planowane wersje:
-= 1.0-??? "Carbon"
-= Beta 1.0.0.0-??? "Odyssey"
-= Alpha 0.0.1.0-??? "Phoenix"
-= ClosedPreview 2.5b_0-20 "Experimentus"
-= ClosedPreview 2.0-2.5b "Leila"
+= 1.0-??? "Discovery"
+= Beta 1.0-??? "Odyssey"
+= Alpha 1.0-??? "Phoenix"
+
+= ClosedPreview 2.5b_10-20 "Experanto"
+= ClosedPreview 1.0-2.5a "Leila"
+
+AUTORZY: _mtjkh, pulpitaro
