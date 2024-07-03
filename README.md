@@ -1,5 +1,5 @@
 # T.B.X. Project
-### Current version / Obecna wersja: Alpha 0.0.1.0
+### Current version / Obecna wersja: Alpha 0.0.0.0
 **EN:** Text-based horror/science-fiction/adventure game
 
 **PL:** Gra tekstowa z gatunku horror/science-fiction/przygodowe
@@ -38,3 +38,8 @@ If you got some interesting ideas and you want to share with them, please tell u
 * Tworzymy bardzo kreatywny i zorganizowany zespół, wcześniej łapałem się za tworzenie mniejszych produkcji czy też krótkich historyjek fabularnych, zgłębiam tajniki informatyki i programowania od 2015 roku (głównie teorię), współpracy w projekcie podjąłem się na początku 2024, jestem dobrej myśli i wierzę w ten projekt! ~~ pulpitaro
 
 </details>
+
+## Dependencies (for latest version):
+* .NET Desktop Runtime 6.0.31 (32-bit)
+* Windows 7+
+* At least 100MB (application and other available source code)
