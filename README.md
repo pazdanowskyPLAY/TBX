@@ -1,5 +1,12 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/pazdanowskyPLAY/project-tbx?style=for-the-badge)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fpazdanowskyplay.github.io%2Fproject-tbx%2F&style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/pazdanowskyPLAY/project-tbx?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/pazdanowskyPLAY/project-tbx?style=for-the-badge&label=Total%20commits%3A)
+
+
+
 # T.B.X. Project
-### Current version / Obecna wersja: Alpha 0.0.0.0
+### Current version / Obecna wersja: Alpha 0.0.0.0 build_07081507
 **EN:** Text-based horror/science-fiction/adventure game
 
 **PL:** Gra tekstowa z gatunku horror/science-fiction/przygodowe

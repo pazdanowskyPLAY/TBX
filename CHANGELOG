@@ -19,6 +19,9 @@ Numeracja:
     FULL:   [major].[minor].[patch].0
     FULLDEV:[major].[candidate].[patch].[hotfix]+[build]
 
+Dla deweloperów: wszystko
+Dla społeczności: Alpha, Beta, Gamma, FULL (bez build)
+Dla pozostałych: Alpha, Beta, openGamma, FULL (bez build, bez API <0)
 
 {
 	= MISTAKE - wersja posiadająca poważne/widoczne błędy
@@ -31,8 +34,8 @@ Numeracja:
 	= OPENPUB - wersja otwarta dla wszytskich
 }
 
---.--.2024 - TBX 0024070209 - (PL_pl)(PLANNIN, DEVONLY)
-	# zmiana języka na C# (.NET Framework 4.8, Visual Studio)
+--.--.2024 - TBX Alpha 0.0.0.1 - (PL_pl)(PLANNIN, DEVONLY)
+	# zmiana języka na C# (.NET 6, Visual Studio)
 	# nowa struktura folderów
 	# nowe materiały graficzne gry
 	# rozpoczęto prace nad pierwszym aktem gry
