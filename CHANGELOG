@@ -1,40 +1,43 @@
-=================================================
-    CHANGELOG FOR TBX ALPHA "PHOENIX" (PL_pl)
-=================================================
+====================================================
+    CHANGELOG FOR TBX PREALPHA "CALGARY" (PL_pl)
+====================================================
 
 LEGENDA:
 (data)- TBX (faza rozwoju i numer)(tryb wersji i numer) - (język)(opis)
 PrzykładY:
-    02/07/2024 - TBX build 8225112911 - (PL_pl)(DEVONLY,MISTAKE)
+    02/07/2024 - TBX build 2024070200 - (PL_pl)(DEVONLY,MISTAKE)
     19/05/2023 - TBX Alpha 1.3.0.14 - (PL_pl)(OPENPUB,UNKNOWN)
     29/11/2019 - TBX (FULL) 1.0.2.0 - (PL_pl)(OPENPUB,BIGRISK)
 
-Fazy rozwoju: NULL/night, Alpha, Beta, Gamma(Pre-releases - ClosedPreview, openGamma), FULL
+Fazy rozwoju: NULL/night_build, preAlpha, Alpha, preBeta, Beta, ClosedPreview (pre-release), FULL
 Tryby wersji: API/major, candidate/minor, patch, hotfix, build
 Numeracja:
-    [NULL]: MMDDHHNN (NN-numer,DD-dzień,MM-miesiąc,HH-godzina,NN-numer)
-    Alpha oraz Beta: [0/1 API].[minor].[patch].[hotfix]+[build]
-    ClosedPreview: [major].[candidate].[patch].[hotfix]
-    openGamma: [major].[candidate].[patch].[hotfix]+[build]
-    FULL:   [major].[minor].[patch].0
+    [NULL]: YYYYMMDDNN (NN-numer,YYYY-rok,DD-dzień,MM-miesiąc,NN-numer)
+	preAlpha oraz Alpha: 0.[minor].[patch].[hotfix]+[build]
+    preBeta oraz Beta: 1.[minor].[patch].[hotfix]+[build]
+    ClosedPreview: [0/1 API].[candidate].[patch].[hotfix]
+    FULL:   [major].[minor].[patch].[hotfix]
     FULLDEV:[major].[candidate].[patch].[hotfix]+[build]
 
 Dla deweloperów: wszystko
-Dla społeczności: Alpha, Beta, Gamma, FULL (bez build)
-Dla pozostałych: Alpha, Beta, openGamma, FULL (bez build, bez API <0)
+Dla społeczności: Alpha, preBeta, Beta, ClosedPreview, FULL, wybrane FULLDEV
+Dla pozostałych: Alpha, Beta, FULL
 
 {
-	= MISTAKE - wersja posiadająca poważne/widoczne błędy
-	= BIGRISK - wersja mogąca uszkodzić dane na komputerze
-	= REMOVED - wersja usunięta/zaginiona
-	= PLANNIN - wersja planowana
+	= 0xPANIC - wersja posiadająca poważne błędy
+	= 0xRISKY - wersja mogąca uszkodzić dane na komputerze
+	= 0xERROR - wersja posiadająca błędy
+	= 0xDEBUG - wersja z narzędziami DEBUG
+	= DELETED - wersja usunięta
+	= MISSING - wersja zaginiona
+	= SCHEDUL - wersja planowana
 	= UNKNOWN - wersja niesprawdzona
 	= DEVONLY - wersja dostępna tylko dla deweloperów
 	= PRIVATE - wersja dostępna dla ograniczonej liczby użytkowników
 	= OPENPUB - wersja otwarta dla wszytskich
 }
 
---.--.2024 - TBX Alpha 0.0.0.1 - (PL_pl)(PLANNIN, DEVONLY)
+DD.MM.YYYY - TBX Alpha 0.0.0.0 - (PL,EN)(PLANNIN, DEVONLY)
 	# zmiana języka na C# (.NET 6, Visual Studio)
 	# nowa struktura folderów
 	# nowe materiały graficzne gry
@@ -45,17 +48,21 @@ Dla pozostałych: Alpha, Beta, openGamma, FULL (bez build, bez API <0)
 	# nowy wygląd TBX_Launcher (tylko dla wersji DEV)
 	# easter eggs!
 	# nowy projekt fabuły
+	# ...
 
 =================================================
-   COPYRIGHT © 2019-2024 - 4amateurscommunity
+   COPYRIGHT © 2019-2026 - 4amateurscommunity
 =================================================
 
 planowane wersje:
-= 1.0-??? "Discovery"
-= Beta 1.0-??? "Odyssey"
-= Alpha 1.0-??? "Phoenix"
+= FULL 1.0.0.0 - ?.?.?.? "Requiem"
+= ClosedPreview 0.0.0.0 - 1.?.?.? "Discovery"
+= Beta 1.0.0.0 - 1.?.?.? "Odyssey"
+= preBeta 1.0.0.0+???????? - 1.0.0.0+???????? "Emerald"
+= Alpha 0.0.0.0 - 0.?.?.? "Phoenix"
+= preAlpha 0.0.0.0+07031801 - 0.0.0.0+???????? "Calgary"
 
-= ClosedPreview 2.5b_10-20 "Experanto"
-= ClosedPreview 1.0-2.5a "Leila"
+= ClosedPreviewMinus 2.5b_00 - 2.5b_20 "Experanto"
+= ClosedPreviewMinus 1.0 - 2.5a "Leila"
 
 AUTORZY: _mtjkh, pulpitaro
